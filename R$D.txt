@@ -1,0 +1,63 @@
+<-------------CSS LEVEL 4------------->
+
+1. E:not(s1, s2, …)
+
+2. E:is(s1, s2, …)
+
+3. E:has(rs1, rs2, …)
+
+4. E[foo="bar" i]
+
+5. E[foo="bar" s]
+
+6. E:dir(ltr)
+
+7. E:lang(zh, "*-hant")
+
+8. E:any-link
+
+9. E:local-link
+
+10. E:target-within
+
+11. E:scope
+
+12. E:current
+
+13. E:current(s)
+
+14. E:past
+
+15. E:future
+
+14. E:focus-within
+
+15. E:focus-visible
+
+16. E:read-write, E:read-only
+
+17. E:placeholder-shown
+
+18. E:default
+
+18. E:indeterminate
+
+19. E:valid, E:invalid
+
+20. E:in-range, E:out-of-range
+
+21. E:required, E:optional
+
+22. E:blank
+
+23. E:user-invalid
+
+24. E:nth-child(n [of S]?)
+
+25. E:nth-last-child(n [of S]?)
+
+26. F || E
+
+27. E:nth-col(n)
+
+28. E:nth-last-col(n)

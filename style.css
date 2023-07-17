@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'mexcellent3d';
+    src: url('mexcellent_3d-webfont.woff2') format('woff2'),
+         url('mexcellent_3d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mexcellentregular';
+    src: url('mexcellent_rg-webfont.woff2') format('woff2'),
+         url('mexcellent_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.container{
+    font-family: 'mexcellentregular';
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+/* .one,.two{
+    padding: 30px;
+    background-color: #f1f1f1;
+    margin: 30px;
+    width: 500px;
+    height: 500px;
+    font-size: 50px;
+} */
+[class="two" i]{
+    padding: 30px;
+    background-color: #f1f1f1;
+    margin: 30px;
+    width: 500px;
+    height: 500px;
+    font-size: 50px;
+}
+
+input:blank{
+    background-color: #ff0000;
+}
+:dir(ltr) {
+    color: red;
+}
+
+:dir(rtl) {
+    color: blue;
+}
+.desrepsion{
+    color: #000;
+    font-size: 10px;
+    font-family: 'mexcellentregular';
+    display: block;
+}
+a{
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+:any-link:hover{
+    color: green;
+    text-decoration: underline;
+}
