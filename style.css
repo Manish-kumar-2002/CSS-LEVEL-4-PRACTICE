@@ -50,6 +50,9 @@
 input:blank{
     background-color: #ff0000;
 }
+input:something {
+    background-color: #000000;
+}
 :dir(ltr) {
     color: red;
 }
@@ -71,4 +74,14 @@ a{
 :any-link:hover{
     color: green;
     text-decoration: underline;
+}
+:is([class="two" i]) h1 {
+    color: red;
+}
+:-moz-any([class="two" i]) h1 {
+    color: red;
+}
+
+:-webkit-any([class="two" i]) h1 {
+    color: red;
 }
