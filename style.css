@@ -5,8 +5,8 @@
 }
 @font-face {
     font-family: 'mexcellent3d';
-    src: url('mexcellent_3d-webfont.woff2') format('woff2'),
-         url('mexcellent_3d-webfont.woff') format('woff');
+    src: url('fonts/mexcellent_3d-webfont.woff2') format('woff2'),
+         url('fonts/mexcellent_3d-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -14,15 +14,19 @@
 
 @font-face {
     font-family: 'mexcellentregular';
-    src: url('mexcellent_rg-webfont.woff2') format('woff2'),
-         url('mexcellent_rg-webfont.woff') format('woff');
+    src: url('fonts/mexcellent_rg-webfont.woff2') format('woff2'),
+         url('fonts/mexcellent_rg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+body{
+    background-color: #000;
+    color: #f1f1f1;
+}
 
 .container{
-    font-family: 'mexcellentregular';
+    font-family: 'Roboto Mono', monospace;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -67,7 +71,7 @@ input:something {
     display: block;
 }
 a{
-    color: #000;
+    color: #f1f1f1;
     font-size: 16px;
     text-decoration: none;
 }
@@ -84,4 +88,16 @@ a{
 
 :-webkit-any([class="two" i]) h1 {
     color: red;
+}
+.selectors{
+    /* text-align: center; */
+}
+.selectors h3{
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.selectors :any-link{
+    display: block;
+    margin-bottom: 6px;
 }
