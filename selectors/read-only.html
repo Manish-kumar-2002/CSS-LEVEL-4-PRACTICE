@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
 </head>
+<style>
+    :read-only {
+        font-family: 'mexcellentregular';
+    }
+
+    :read-write {
+        font-family: 'Roboto Mono', monospace;
+        border: 1px dotted gray;
+    }
+</style>
+
 <body>
     <div class="container">
-        <div class="two">
-            <h1>one</h1>
-            <p>two</p>
-            <p>three</p>
-            <p>four</p>
-            <p>five</p>
-            <input type="text" value="DEMO">
-            <a href="#">Open</a>
+        <div class="wrap">
+            <p>Content (ready-only)</p>
+            <input type="text" value="Test (read-write)" />
+            <section contenteditable="true">
+                <h2>Edit away!</h2>
+                <p>Here stands a typical website text.</p>
+            </section>
         </div>
-        <div class="TwO">
-            <h1>one</h1>
-            <p>two</p>
-            <p>three</p>
-            <p>four</p>
-            <p>five</p>
-            <!-- <span class="desrepsion">
-                :dir(direction) {
-                    /* declarations */
-                }
-            </span> -->
-            <input type="text" dir="rtl">
-            <a href="#">Open</a>
-        </div>
-
-        
     </div>
 </body>
+
 </html>

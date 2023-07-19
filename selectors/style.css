@@ -5,8 +5,8 @@
 }
 @font-face {
     font-family: 'mexcellent3d';
-    src: url('fonts/mexcellent_3d-webfont.woff2') format('woff2'),
-         url('fonts/mexcellent_3d-webfont.woff') format('woff');
+    src: url('../fonts/mexcellent_3d-webfont.woff2') format('woff2'),
+         url('../fonts/mexcellent_3d-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -14,8 +14,8 @@
 
 @font-face {
     font-family: 'mexcellentregular';
-    src: url('fonts/mexcellent_rg-webfont.woff2') format('woff2'),
-         url('fonts/mexcellent_rg-webfont.woff') format('woff');
+    src: url('../fonts/mexcellent_rg-webfont.woff2') format('woff2'),
+         url('../fonts/mexcellent_rg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -44,7 +44,7 @@ body{
 } */
 [class="two" i]{
     padding: 30px;
-    background-color: #f1f1f1;
+    background-color: #808080;
     margin: 30px;
     width: 500px;
     height: 500px;

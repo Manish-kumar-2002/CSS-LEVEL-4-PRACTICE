@@ -13,22 +13,27 @@
         rel="stylesheet">
 </head>
 <style>
-    :required {
-    border: 2px solid red;
+    :placeholder-shown {
+    color: #F00000;
 }
  
-:optional {
-    border: 2px solid gray;
+::-webkit-input-placeholder {
+    color: #F00000;
+}
+ 
+::-moz-placeholder {
+    color: #F00000;  
+}
+ 
+:-ms-input-placeholder {
+    color: #F00000;  
 }
 </style>
 
 <body>
     <div class="container">
         <div class="wrap">
-            <form method="get">
-                <input type="text" required="required" />
-                <input type="text" />
-            </form>
+            <input type="text" placeholder="Placeholder text" />
         </div>
     </div>
 </body>

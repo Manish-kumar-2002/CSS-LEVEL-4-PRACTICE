@@ -13,22 +13,20 @@
         rel="stylesheet">
 </head>
 <style>
-    :required {
-    border: 2px solid red;
-}
- 
-:optional {
-    border: 2px solid gray;
+    a:not([rel="external"], [rel="nofollow"]) {
+    color: red;
 }
 </style>
 
 <body>
     <div class="container">
         <div class="wrap">
-            <form method="get">
-                <input type="text" required="required" />
-                <input type="text" />
-            </form>
+            <p>On the other hand, we denounce with
+                <a href="#">righteous</a> indignation and
+                <a href="#" rel="external">dislike</a>
+                men who are so beguiled and
+                <a href="#" rel="nofollow">demoralized</a>
+                by the charms of pleasure of the moment.</p>
         </div>
     </div>
 </body>
