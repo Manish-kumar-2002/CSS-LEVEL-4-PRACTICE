@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+input:default {
+  box-shadow: 0 0 2px 1px coral;
+}
+
+input:default + label {
+  color: coral;
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="wrap">
+            <fieldset>
+                <legend>Favorite season</legend>
+              
+                <input type="radio" name="season" id="spring" value="spring" />
+                <label for="spring">Spring</label>
+              
+                <input type="radio" name="season" id="summer" value="summer" checked />
+                <label for="summer">Summer</label>
+              
+                <input type="radio" name="season" id="fall" value="fall" />
+                <label for="fall">Fall</label>
+              
+                <input type="radio" name="season" id="winter" value="winter" />
+                <label for="winter">Winter</label>
+              </fieldset>
+              
+        </div>
+    </div>
+
+</body>
+
+</html>
